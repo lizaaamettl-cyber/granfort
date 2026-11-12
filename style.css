@@ -1,0 +1,395 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: white;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#production-block, #custom-order, #info-icon, #contact {
+    scroll-margin-top: 100px;
+}
+
+.header, .solutions, .info-icon, .product-content, .custom-order, .hero-content, .contact-all, .footer-all {
+    margin: 0 90px;
+}
+
+.header {
+    position: fixed;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 0px;
+    margin: 0 90px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.navigation {
+    display: flex;
+    gap: 80px;
+    font-size: 14px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.navigation a:hover {
+    color: #FF6522;
+    transition: 0.5s;
+}
+
+.phone {
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #F08767;
+    border-radius: 10px;
+    padding: 3px 9px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.phone:hover {
+    background: #1b1a1abb;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.icone-phone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icone-phone img {
+    width: 25px;
+    height: 25px;
+}
+
+.hero {
+    background-image: url('image/hero-jac.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 391px;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.button {
+    background-color: #FF6522;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #F08767;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.button p {
+    margin: 0 15px 0 15px;
+}
+
+.hero-content {
+    margin: 10px 0 0 90px;
+}
+
+.h4-orange {
+    color: #FF6522;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.orange-text {
+    color: #FF6522;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+.solutions {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 10px;
+    align-items: center;
+    margin: 40px 0 65px 90px;
+}
+
+.solutions-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.solutions-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.solutions h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.solutions .h4-orange {
+    margin: 0 0 10px 5px;
+}
+
+.solutions p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+}
+
+.info-icon {
+    margin: 40px 90px;
+}
+
+.info-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 30px 0;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0 0 0 15px;
+}
+
+.production-block {
+    background-image: url(image/produc-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 391px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.product-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-content p {
+    font-size: 14px;
+}
+
+.button2 {
+    background-color: #000000;
+    border: 1px solid #F08767;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+    transition: 0.5s;
+}
+
+.button2:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #FF6522;
+}
+
+.produc-button {
+    border-radius: 8px;
+}
+
+.custom-text {
+    font-size: 14px;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 10px 0 10px;
+}
+
+.custom-order {
+    margin: 70px 90px;
+}
+
+.custom-text h2 {
+    margin: 17px 0 5px 0;
+}
+
+.footer {
+    background-color: #0F1012;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav a:hover {
+    color: #FF6522;
+    transition: 0.5s;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-soc {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.soc-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.icone-phone p {
+    font-weight: 600;
+}
+
+.soc-img img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-all {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: transparent;
+    padding: 40px 0px;
+    margin: 0 90px;
+}
+
+.contact-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.contact-form {
+    justify-self: end;
+    width: 100%;
+    max-width: 450px;
+}
+
+.contact {
+    background-image: url('image/hero-jac.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 391px;
+    width: 100%;
+    margin-top: 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-name, .form-phone, .form-messages {
+    display: flex;
+}
+
+.form-name-text, .form-phone-text, .form-messages-text {
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 5px 15px;
+    gap: 0;
+    width: 100%;
+}
+
+.form-name img, .form-phone img, .form-messages img {
+    margin-right: 10px;
+}
+
+.form-text {
+    background: transparent;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    outline: none;
+    width: 100%;
+}
+
+.form-text::placeholder {
+    color: white;
+}
+
+.form-button {
+    background-color: #FF6522;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 15px 0 0 0;
+    transition: 0.5s;
+}
+
+.form-button:hover {
+    background-color: #F08767;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
